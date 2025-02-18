@@ -1,441 +1,939 @@
 {
-  "android_play_store_link": "",
-  "ios_app_store_link": "",
   "sticker_packs": [
     {
       "identifier": "1",
-      "name": "Cuppy",
-      "publisher": "Jane Doe",
-      "tray_image_file": "tray_Cuppy.png",
+      "name": "tudo. (1)",
+      "publisher": "meninocoiso",
+      "tray_image_file": "tray_image.png",
       "image_data_version": "1",
+      "animated_sticker_pack": true,
       "avoid_cache": false,
-      "publisher_email": "",
-      "publisher_website": "",
-      "privacy_policy_website": "",
-      "license_agreement_website": "",
       "stickers": [
         {
-          "image_file": "01_Cuppy_smile.webp",
+          "image_file": "10_bomdia_2x.webp",
           "emojis": [
-            "☕",
-            "🙂",
-            "😀"
-          ],
-          "accessibility_text": "A smiling, white cup contains a brown drink."
-        },
-        {
-          "image_file": "02_Cuppy_lol.webp",
-          "emojis": [
-            "☕",
             "😄",
             "😀"
-          ],
-          "accessibility_text": "A laughing, white cup is tilted to the right and contains a brown drink."
-        },
-        {
-          "image_file": "03_Cuppy_rofl.webp",
-          "emojis": [
-            "☕",
-            "😆",
-            "😂"
-          ],
-          "accessibility_text": "A laughing and crying white cup is tilted to the right as if shaking. It contains a brown drink."
-        },
-        {
-          "image_file": "04_Cuppy_sad.webp",
-          "emojis": [
-            "☕",
-            "😩",
-            "😰"
-          ],
-          "accessibility_text": "A crying, white cup is half full and leaking brown liquid."
-        },
-        {
-          "image_file": "05_Cuppy_cry.webp",
-          "emojis": [
-            "☕",
-            "😭",
-            "💧"
-          ],
-          "accessibility_text": "A crying, white cup is upside-down with brown liquid spilled around it."
-        },
-        {
-          "image_file": "06_Cuppy_love.webp",
-          "emojis": [
-            "☕",
-            "😍",
-            "♥"
-          ],
-          "accessibility_text": "A white cup is next to two red hearts. It contains coffee with white foam in the shape of a heart on top."
-        },
-        {
-          "image_file": "07_Cuppy_hate.webp",
-          "emojis": [
-            "☕",
-            "💔",
-            "👎"
-          ],
-          "accessibility_text": "A white cup contains coffee with white foam in the shape of a broken heart on top."
-        },
-        {
-          "image_file": "08_Cuppy_lovewithmug.webp",
-          "emojis": [
-            "☕",
-            "😍",
-            "💑"
-          ],
-          "accessibility_text": "Two smiling cups are below two red hearts. One cup is white, and one is black. They contain a brown drink."
-        },
-        {
-          "image_file": "09_Cuppy_lovewithcookie.webp",
-          "emojis": [
-            "☕",
-            "😘",
-            "🍪"
-          ],
-          "accessibility_text": "A smiling, white cup looks at a cookie and a red heart. It contains coffee with white foam in the shape of a heart on top."
-        },
-        {
-          "image_file": "10_Cuppy_hmm.webp",
-          "emojis": [
-            "☕",
-            "🤔",
-            "😐"
-          ],
-          "accessibility_text": "A sad, white cup seems to shake. It contains a brown drink."
-        },
-        {
-          "image_file": "11_Cuppy_upset.webp",
-          "emojis": [
-            "☕",
-            "😱",
-            "😵"
-          ],
-          "accessibility_text": "A shocked, white cup is tilted to the left with brown liquid splashing out of it."
-        },
-        {
-          "image_file": "12_Cuppy_angry.webp",
-          "emojis": [
-            "☕",
-            "😡",
-            "😠"
-          ],
-          "accessibility_text": "An angry, red cup has three red lightning bolts coming out of it."
-        },
-        {
-          "image_file": "13_Cuppy_curious.webp",
-          "emojis": [
-            "☕",
-            "❓",
-            "🤔"
-          ],
-          "accessibility_text": "An expressionless, white cup has two brown question marks above it. It contains a brown drink."
-        },
-        {
-          "image_file": "14_Cuppy_weird.webp",
-          "emojis": [
-            "☕",
-            "🌈",
-            "😜"
-          ],
-          "accessibility_text": "A shocked, white cup has a rainbow pouring into it. It has pink cheeks, shining eyes and an open mouth."
-        },
-        {
-          "image_file": "15_Cuppy_bluescreen.webp",
-          "emojis": [
-            "☕",
-            "💻",
-            "😩"
-          ],
-          "accessibility_text": "A snoring, white cup is next to a shadowy laptop with text that reads :(@#%&. It has crosses for eyes and an open mouth."
-        },
-        {
-          "image_file": "16_Cuppy_angry.webp",
-          "emojis": [
-            "☕",
-            "😡",
-            "😤"
-          ],
-          "accessibility_text": "An angry, red cup stares. It has brown spikes at its base and contains blue liquid."
-        },
-        {
-          "image_file": "17_Cuppy_tired.webp",
-          "emojis": [
-            "☕",
-            "😩",
-            "😨"
-          ],
-          "accessibility_text": "A tired, grey cup is under a low battery symbol. It's half-full and leaking a dark liquid. It has red eyes and an open mouth"
-        },
-        {
-          "image_file": "18_Cuppy_workhard.webp",
-          "emojis": [
-            "☕",
-            "😔",
-            "😨"
-          ],
-          "accessibility_text": "A drooling, white cup stares at a laptop next to a window showing a moon and stars. It has red, shining eyes."
-        },
-        {
-          "image_file": "19_Cuppy_shine.webp",
-          "emojis": [
-            "☕",
-            "🎉",
-            "✨"
-          ],
-          "accessibility_text": "A laughing, white cup is under four yellow stars and a yellow beam of light. It contains a brown drink."
-        },
-        {
-          "image_file": "20_Cuppy_disgusting.webp",
-          "emojis": [
-            "☕",
-            "🤮",
-            "👎"
-          ],
-          "accessibility_text": "A miserable, grey cup vomits green liquid. It contains a green, bubbly liquid."
-        },
-        {
-          "image_file": "21_Cuppy_hi.webp",
-          "emojis": [
-            "☕",
-            "🖐",
-            "🙋"
-          ],
-          "accessibility_text": "A happy, white cup with a brown lid holds its arms up."
-        },
-        {
-          "image_file": "22_Cuppy_bye.webp",
-          "emojis": [
-            "☕",
-            "🖐",
-            "👋"
-          ],
-          "accessibility_text": "A happy, white cup with a brown lid waves."
-        },
-        {
-          "image_file": "23_Cuppy_greentea.webp",
-          "emojis": [
-            "🍵",
-            "😌"
           ]
         },
         {
-          "image_file": "24_Cuppy_phone.webp",
+          "image_file": "11_BoneZone_2x.webp",
           "emojis": [
-            "📱",
-            "😦"
+            "😄",
+            "😀"
           ]
         },
         {
-          "image_file": "25_Cuppy_battery.webp",
+          "image_file": "12_catJam_2x.webp",
           "emojis": [
-            "🔋",
-            "😵"
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "13_cowJam_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "14_crunch_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "15_DIESOFCUTE_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "16_eeeh_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "17_FALAMUITO_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "18_FeelsDankMan_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "19_FeelsWeakManWide_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "1_AAAA_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "20_FeelsWeakMan_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "21_Felping_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "22_HACKERMANS_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "23_HeadBang_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "24_Henrique_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "25_LESFUCKINGO_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "26_MEDO_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "27_Mhmm_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "28_MmmHmm_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "29_muted_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "2_Alarm_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "30_nananinanao_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "3_alienLSD_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "4_awkward_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "5_beepoTalk_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "6_beepoTrip_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "7_BOAMADRUGADA_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "8_boanoite_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "9_boatarde_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
           ]
         }
       ]
     },
     {
       "identifier": "2",
-      "name": "Together While Apart",
-      "publisher": "World Health Organization",
-      "tray_image_file": "01.png",
+      "name": "tudo. (2)",
+      "publisher": "meninocoiso",
+      "tray_image_file": "tray_image.png",
       "image_data_version": "1",
-      "avoid_cache": false,
-      "publisher_email": "",
-      "publisher_website": "",
-      "privacy_policy_website": "",
-      "license_agreement_website": "",
       "animated_sticker_pack": true,
+      "avoid_cache": false,
       "stickers": [
         {
-          "image_file": "01_SendingLove.webp",
+          "image_file": "10_peepoBrazil_2x.webp",
           "emojis": [
-            "💕",
-            "😘",
-            "❤️"
-          ],
-          "accessibility_text": "A red paper heart is folded into an aerodynamic shape. It zooms around in a spiral."
+            "😄",
+            "😀"
+          ]
         },
         {
-          "image_file": "02_WellDoThisTogether.webp",
+          "image_file": "11_peepoBye_2x.webp",
           "emojis": [
-            "✊",
-            "💪",
-            "🙏"
-          ],
-          "accessibility_text": "A blue sash with white text that reads \"We'll do this together\" in English is wrapped around a beige arm. As the arm moves up and down, its clenched fist turns into an open palm."
+            "😄",
+            "😀"
+          ]
         },
         {
-          "image_file": "03_Heart.webp",
+          "image_file": "12_peepoCheering_2x.webp",
           "emojis": [
-            "❤️",
-            "😘",
-            "💕"
-          ],
-          "accessibility_text": "A smiling red heart has eyes, a mouth and blushing cheeks. It beats a few times to make four smaller hearts appear in front of it."
+            "😄",
+            "😀"
+          ]
         },
         {
-          "image_file": "04_AirHighFive.webp",
+          "image_file": "13_peepoCheer_2x.webp",
           "emojis": [
-            "🖐",
-            "🙌",
-            "✋"
-          ],
-          "accessibility_text": "Two people high five without touching with large pink text that reads \"Air high five\" in English in-between them. One has long blue hair and pink skin. The other has short gray hair and brown skin. "
+            "😄",
+            "😀"
+          ]
         },
         {
-          "image_file": "05_GroupVideoCalling.webp",
+          "image_file": "14_peepoDJ_2x.webp",
           "emojis": [
-            "📱",
-            "👯",
-            "👋"
-          ],
-          "accessibility_text": "A smartphone screen devides into four sections to reveal two waving people and two smiling people."
+            "😄",
+            "😀"
+          ]
         },
         {
-          "image_file": "06_StayConnected.webp",
+          "image_file": "15_peepoExcitedHug_2x.webp",
           "emojis": [
-            "📱",
-            "🙋‍♀",
-            "🙋‍♂"
-          ],
-          "accessibility_text": "Two people wave at each other from their windows. One has brown skin and long black hair. The other has beige skin and short black hair. "
+            "😄",
+            "😀"
+          ]
         },
         {
-          "image_file": "07_OK.webp",
+          "image_file": "16_peepoGiggles_2x.webp",
           "emojis": [
-            "👍",
-            "👌",
-            "🙂"
-          ],
-          "accessibility_text": "A green speech bubble appears with text that reads \"OK!\" in English."
+            "😄",
+            "😀"
+          ]
         },
         {
-          "image_file": "08_AreYouOK.webp",
+          "image_file": "17_peepoGoodNight_2x.webp",
           "emojis": [
-            "👋",
-            "❓",
-            "📱"
-          ],
-          "accessibility_text": "A green smartphone vibrates as text that reads \"Are you okay?\" in English appears on the screen."
+            "😄",
+            "😀"
+          ]
         },
         {
-          "image_file": "09_StayingHomeMug.webp",
+          "image_file": "18_peepoHappyUJam_2x.webp",
           "emojis": [
-            "☕",
-            "🍵",
-            "🏠"
-          ],
-          "accessibility_text": "A red mug with text that reads \"Staying home\" in English rocks from side-to-side to make a brown drink splash out of it."
+            "😄",
+            "😀"
+          ]
         },
         {
-          "image_file": "10_WorkingFromBed.webp",
+          "image_file": "19_peepoHypeMusic_2x.webp",
           "emojis": [
-            "👩‍💻",
-            "👨‍💻",
-            "🛏"
-          ],
-          "accessibility_text": "A person sits in bed with a pink comforter wrapped around them while typing on a laptop. The person has dark beige skin and a black fringe."
+            "😄",
+            "😀"
+          ]
         },
         {
-          "image_file": "11_StayCalm.webp",
+          "image_file": "1_NODDERS_2x.webp",
           "emojis": [
-            "☕",
-            "🍵",
-            "🤙"
-          ],
-          "accessibility_text": "A calm person sits with their legs crossed before moving their arms into a meditation pose. The person has dark pink skin and a blue turban."
+            "😄",
+            "😀"
+          ]
         },
         {
-          "image_file": "12_Gymnastics.webp",
+          "image_file": "20_peepoLaptopHappy_2x.webp",
           "emojis": [
-            "🤸",
-            "🐩",
-            "💪"
-          ],
-          "accessibility_text": "A standing person breathes in and out while stretching to the side. A white poodle also stretches. The person has dark pink skin and black curly hair in a yellow sweat band."
+            "😄",
+            "😀"
+          ]
         },
         {
-          "image_file": "13_DoubleChecking.webp",
+          "image_file": "21_peepoLeave_2x.webp",
           "emojis": [
-            "📰",
-            "🔎",
-            "🔍"
-          ],
-          "accessibility_text": "A searching woman holds two magnifying glasses to her eyes. She switches between them to make each eye appear larger. She has beige skin and black hair."
+            "😄",
+            "😀"
+          ]
         },
         {
-          "image_file": "14_CatOnTheLaptop.webp",
+          "image_file": "22_peepoMorning_2x.webp",
           "emojis": [
-            "🐈",
-            "🐱",
-            "💻"
-          ],
-          "accessibility_text": "A peaceful ginger cat lies on a laptop's keyboard. It taps its front paws to make the screen display change."
+            "😄",
+            "😀"
+          ]
         },
         {
-          "image_file": "15_WorkingFromHomeF.webp",
+          "image_file": "23_peepoPray_2x.webp",
           "emojis": [
-            "👩‍💻",
-            "🏠",
-            "💻"
-          ],
-          "accessibility_text": "A woman holds a laptop while wearing a pink top and glasses. The view zooms out to reveal her spotty pajama bottoms and bear slippers. She has beige skin and ginger hair."
+            "😄",
+            "😀"
+          ]
         },
         {
-          "image_file": "16_WorkingFromHomeM.webp",
+          "image_file": "24_peepoReallyHappy_2x.webp",
           "emojis": [
-            "👨‍💻",
-            "🏠",
-            "💻"
-          ],
-          "accessibility_text": "A man holds a laptop while wearing a green shirt, a red tie and glasses. The view zooms out to reveal his pajama shorts and bunny slippers. He has beige skin and ginger hair."
+            "😄",
+            "😀"
+          ]
         },
         {
-          "image_file": "17_WashingHands.webp",
+          "image_file": "25_peepoRun_2x.webp",
           "emojis": [
-            "✋",
-            "💦",
-            "🤧"
-          ],
-          "accessibility_text": "A beige hand with a smiley face holds a white bar of soap with a smiley face while surrounded by blue bubbles. The soap spins around as the hand squeezes it."
+            "😄",
+            "😀"
+          ]
         },
         {
-          "image_file": "18_DontTouchYourFace.webp",
+          "image_file": "26_peepoScaredLeave_2x.webp",
           "emojis": [
-            "😷",
-            "🤒",
-            "🤧"
-          ],
-          "accessibility_text": "A man wears a transparent sphere on his head and a green jumper covered in green slime. He pokes the sphere and looks surpised. He has beige skin and ginger hair.  "
+            "😄",
+            "😀"
+          ]
         },
         {
-          "image_file": "19_SocialDistancing.webp",
+          "image_file": "27_peepoSleep_2x.webp",
           "emojis": [
-            "😷",
-            "🤒",
-            "🏠"
-          ],
-          "accessibility_text": "A man uses a giant red pencil to draw a circle around himself. A large transparent dome appears around him. He has brown skin and black hair."
+            "😄",
+            "😀"
+          ]
         },
         {
-          "image_file": "20_SuperheroNurse.webp",
+          "image_file": "28_peepoWatching_2x.webp",
           "emojis": [
-            "👩‍⚕",
-            "👨‍⚕️",
-            "🤒"
-          ],
-          "accessibility_text": "A person wears a face mask, a stethoscope, blue scrubs and a red cap with a cross. The person stands akimbo as a red superhero's cape starts flowing.  The person has beige skin and black hair."
+            "😄",
+            "😀"
+          ]
         },
         {
-          "image_file": "21_YouAreMyHero.webp",
+          "image_file": "29_peepoYELLING_2x.webp",
           "emojis": [
-            "🙏",
-            "🎉",
-            "✨"
-          ],
-          "accessibility_text": "Large, multi-colored text that reads \"hero\" in English is below a green sash. Small, white text that reads \"You're my\" in English appears on the sash. The combined text reads \"You're my hero\" in English."
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "2_Nono_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "30_pepeBreakdown_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "3_NOPERS_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "4_Panela_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "5_parrotJAM_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "6_Patdge_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "7_peepoArriveNope_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "8_peepoArrive_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "9_peepoBOOM_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "3",
+      "name": "tudo. (3)",
+      "publisher": "meninocoiso",
+      "tray_image_file": "tray_image.png",
+      "image_data_version": "1",
+      "animated_sticker_pack": true,
+      "avoid_cache": false,
+      "stickers": [
+        {
+          "image_file": "10_RAGEY_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "11_rastaPe_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "12_ratHappy_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "13_ROGER_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "14_ROJAO_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "15_Saddies_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "16_SAVED_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "17_Sisi_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "18_Tasty_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "19_vibeeW_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "1_pepeDD_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "20_WAYTOOBIRTHDAY_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "21_WeirdgeLove_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "22_WHAT_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "23_where_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "24_whistle_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "25_WidepeepoFat_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "26_widepeepoPat_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "27_widepeepoShy_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "28_widestpeepoHappyLove_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "2_PepeSaber_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "3_pepoJAM_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "4_pisicna_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "5_ppBounce_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "6_ppCorn_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "7_ppJam_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "8_ppPoof_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "9_ppWalk_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "4",
+      "name": "tudo. (4)",
+      "publisher": "meninocoiso",
+      "tray_image_file": "tray_image.png",
+      "image_data_version": "1",
+      "animated_sticker_pack": false,
+      "avoid_cache": false,
+      "stickers": [
+        {
+          "image_file": "10_hmjj_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "11_Hmmm_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "12_HUH_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "13_JOIA_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "14_Kkkkk_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "15_Life_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "16_MomentoSerio_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "17_naoseisecomento_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "18_PauseChamp_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "19_pause_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "1_5Head_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "20_peepoAtropelado_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "21_peepoEz_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "22_peepoHappy_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "23_peepoLove_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "24_peepoNerd_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "25_peepoSadSit_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "26_peepoScared_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "27_peepoSitHappy_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "28_pfft_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "29_piorque_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "2_angryface_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "30_POGCHEEKS_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "3_catBusiness_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "4_catnerd_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "5_Engualsinho_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "6_Essaying_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "7_EZ_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "8_Flirt_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "9_happyface_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "5",
+      "name": "tudo. (5)",
+      "publisher": "meninocoiso",
+      "tray_image_file": "tray_image.png",
+      "image_data_version": "1",
+      "animated_sticker_pack": false,
+      "avoid_cache": false,
+      "stickers": [
+        {
+          "image_file": "1_Poopge_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "2_RuLife_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "3_sadface_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "4_Sassy_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "5_scuffedCry_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "6_Taporraaakkk_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "7_widepeepoHappy_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
+        },
+        {
+          "image_file": "8_widepeepoSad_2x.webp",
+          "emojis": [
+            "😄",
+            "😀"
+          ]
         }
       ]
     }

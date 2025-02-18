@@ -4,7 +4,7 @@ android {
     //the compression of webp file during build causes problem with FileDescriptor in ContentProvider.
     compileSdkVersion 30
     defaultConfig {
-        applicationId "com.example.samplestickerapp"
+        applicationId "org.meninocoiso.stickers"
         minSdkVersion 15
         targetSdkVersion 30
         versionCode 1
@@ -45,6 +45,7 @@ android {
     androidResources {
         noCompress 'webp'
     }
+    buildToolsVersion '35.0.0'
 
     // Configures multiple APKs based on ABI.
     // see https://developer.android.com/studio/build/configure-apk-splits#configure-abi-split
