@@ -1,40 +1,99 @@
-name: Build Android APK
+name: Build and Release Android APK
 
 on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+  workflow_dispatch:
+    inputs:
+      bump_type:
+        description: "Version bump type"
+        required: true
+        default: "patch"
+        type: choice
+        options:
+          - patch
+          - minor
+          - major
 
 jobs:
   build:
-    name: Build APK
+    name: Build APKs and Create GitHub Release
     runs-on: ubuntu-latest
 
     steps:
+      # Checkout repo
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Important for getting tags
 
+      # Set up Java 21 (Temurin)
       - name: Set up JDK
         uses: actions/setup-java@v4
         with:
           distribution: 'temurin'
           java-version: '21'
 
+      # Gradle cache
       - name: Setup Gradle cache
         uses: gradle/gradle-build-action@v3
-        
+
+      # Make gradlew executable
       - name: Grant execute permission for gradlew
         run: chmod +x ./gradlew
 
+      # Create local.properties for CI SDK location
       - name: Create local.properties
         run: echo "sdk.dir=/usr/local/lib/android/sdk" > local.properties
-
+        
+      # Build Debug APK
       - name: Build debug APK
         run: ./gradlew assembleDebug
 
-      - name: Upload APK
+      # Upload Debug APK
+      - name: Upload Debug APK
         uses: actions/upload-artifact@v4
         with:
-          name: Stickers-APK
+          name: Stickers-APK-Debug
           path: app/build/outputs/apk/debug/app-debug.apk
+
+      # Determine next tag based on bump type
+      - name: Determine next version tag
+        id: tag
+        run: |
+          bump="${{ github.event.inputs.bump_type }}"
+          latest_tag=$(git describe --tags --abbrev=0 2>/dev/null || echo "v0.0.0")
+          echo "Latest tag: $latest_tag"
+
+          IFS='.' read -r major minor patch <<<"${latest_tag#v}"
+          case "$bump" in
+            major)
+              major=$((major+1)); minor=0; patch=0;;
+            minor)
+              minor=$((minor+1)); patch=0;;
+            patch)
+              patch=$((patch+1));;
+          esac
+
+          new_tag="v$major.$minor.$patch"
+          echo "New tag: $new_tag"
+          echo "tag=$new_tag" >> $GITHUB_OUTPUT
+
+      # Push new tag
+      - name: Push new tag
+        run: |
+          git tag ${{ steps.tag.outputs.tag }}
+          git push origin ${{ steps.tag.outputs.tag }}
+
+      # Create GitHub Release
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ steps.tag.outputs.tag }}
+          name: Release ${{ steps.tag.outputs.tag }}
+          body: |
+            🚀 New Release of Stickers App
+            - Version bump: **${{ github.event.inputs.bump_type }}**
+            - Built from commit ${{ github.sha }}
+          files: |
+            app/build/outputs/apk/debug/app-debug.apk
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
